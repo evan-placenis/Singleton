@@ -12,6 +12,11 @@ Singleton is useful when:
 - Permits refinement of operations and representation (because of subclassing).
 - More flexible than class operations.
 
+**Commonly used with:**
+- Abstract Factory
+- Builder
+- Prototype
+
 # Maze - Singleton Example
 
 In this program the MazeFactory constains an "Intance" method that checks whether there is an existing instance already created. If not, the program checks the environment variables to see which mazeStyle should be instantiated (these are set in the main function). This only allows one style of maze to be created at a time.
