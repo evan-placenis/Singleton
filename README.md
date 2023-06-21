@@ -11,3 +11,9 @@ Singleton is useful when:
 - Reduced name space because it avoids polluting the name space with global variables that store sole instances.
 - Permits refinement of operations and representation (because of subclassing).
 - More flexible than class operations.
+
+# Maze - Singleton Example
+
+In this program the MazeFactory constains an "Intance" method that checks whether there is an existing instance already created. If not, the program checks the environment variables to see which mazeStyle should be instantiated (these are set in the main function). This only allows one style of maze to be created at a time.
+
+![image](https://github.com/evan-placenis/Singleton/assets/112578037/232b8ce9-1fea-4e04-84b2-84ac731a650f)
