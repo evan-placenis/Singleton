@@ -16,7 +16,8 @@ Singleton is useful when:
 
 In this program the MazeFactory constains an "Intance" method that checks whether there is an existing instance already created. If not, the program checks the environment variables to see which mazeStyle should be instantiated (these are set in the main function). This only allows one style of maze to be created at a time.
 
-![image](https://github.com/evan-placenis/Singleton/assets/112578037/0cb5d28a-702c-427c-b7d9-b59b361e12b3)
+![image](https://github.com/evan-placenis/Singleton/assets/112578037/d2e05c0f-8508-49ef-88b0-4e6e8993e3fb)
+
 
 Environment variables set to bombed maze
 
